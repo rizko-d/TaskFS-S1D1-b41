@@ -1,0 +1,112 @@
+div.card {
+    width: 1000px;
+    height: 1000px;
+    padding: 40px;
+    margin: 0px auto 5px ;
+    box-shadow: 0 0 20px black; border-radius: 20px;
+    background-color: white
+}
+
+body { 
+    background-color: #e3e7eb
+}
+h1 { 
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 55px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+p { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    padding:55px;
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+}
+
+.p1 { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding-left: 100px;
+}
+
+div.centered{
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.centered a{
+    padding: 10px 12px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+div.centered a:hover{
+    opacity: 0.8;
+}
+.fb{
+    background: black ;
+}
+.insta{
+    background: black;
+}
+.twitter{
+    background: black;
+}
+.linkedin{
+    background: black;
+}
+
+img { 
+    display: block;
+    width:  30% ;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+table { 
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0px;
+    background-color:#fdfdffe0;
+    box-shadow: 10px 10px 10px rgb(240, 238, 238);
+}
+
+
+th, td {
+    text-align:center;
+    padding: 2px;
+}
+button { 
+        font-family: sans-serif;
+        font-size: 15px;
+        background: black;
+        color: white;
+        border: white 3px solid;
+        border-radius: 25px;
+        padding: 12px 20px;
+        margin-top: 0px;
+        margin-left: 100px;
+        
+}
