@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="kontak.css">
+        
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="input-name">Nama</label>
+                <input height="50" type="text" id="input-name" placeholder="Your Name" required>
+            </div>
+            <div>
+                <label for="input-email">input-email</label>
+                <input height="50" type="text" id="input-email" placeholder= "Your email" required>
+            </div>
+            <div>
+                <label for="input-phone">Phone Number</label>
+                <input height="50" type="text" id="input-phone" placeholder="Your Number" required>
+            </div>
+            <div>
+                <label for="input-subject">Subject</label>
+                <select id="input-subject"> 
+                    <option value ="" hidden>select</option>
+                    <option>FrontEnd</option>
+                    <option>Backend</option>
+                    <option>Fullstack</option>
+                </select>
+            </div>
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea rows="5" cols="60" id="input-message" placeholder="Your Message"></textarea>
+            </div>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
